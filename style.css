@@ -231,3 +231,69 @@ hr {
     font-family: 'ITC Mendoza Roman Std Italic', sans-serif;
     font-size: 14px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .Menu-Bar {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    
+    .Frontpage img {
+        width: 100%;
+        height: auto;
+        max-width: 90vw;
+    }
+
+    .album img,
+    .album-item img {
+        width: 100%;
+        height: auto;
+        max-width: 90vw;
+    }
+
+    .row, .row2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .Info-Right, .Info-Left {
+        margin: 0;
+        width: 100%;
+    }
+
+    .Recordinfo img,
+    .Lyricsinfo img {
+        width: 100%;
+        height: auto;
+        max-width: 90vw;
+    }
+
+    .Lyricsinfo h1 {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .Recordinfo pre,
+    .Lyricsinfo pre {
+        font-size: 13px;
+        padding: 0 10px;
+    }
+
+    .album-item {
+        font-size: 12px;
+    }
+
+    .Dots-Bar {
+        display: none;
+    }
+}
