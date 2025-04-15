@@ -94,7 +94,7 @@ li{
         }
 
         .Dots-Bar {
-            display: block;
+            display: none;
         }
 
         h1,
