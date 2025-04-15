@@ -86,3 +86,27 @@ li{
     text-align: left;
     margin: 20px auto 0;
 }
+    @media screen and (max-width: 768px) {
+        .Menu-Bar {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .Dots-Bar {
+            display: block;
+        }
+
+        h1,
+        li {
+            width: 90%;
+            font-size: 16px;
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .Menu-Bar button {
+            font-size: 14px;
+        }
+    }
