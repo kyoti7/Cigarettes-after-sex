@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'ITC Mendoza Roman Std Book';
+    src: url('Asset/Fonts/ITC\ Mendoza\ Roman\ Std\ Book.otf') format('opentype');
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
+    color: black;
+}
+
+.Menu-Bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    background-color: black;
+}
+
+.Menu-Bar button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'ITC Mendoza Roman Std Book', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#dots {
+    position: relative;
+    top: -5px;
+}
+
+.Dots-Bar {
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'ITC Mendoza Roman Std Book', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: none;
+}
+
+.Dots-Bar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+hr { 
+    width: 40%;
+    margin: 1px auto;
+    border: 1px solid gray;
+}
+
+h1 {
+    color: #D4D4D4;
+    background-color: transparent;
+    text-align: left;
+    width: 40%;
+    margin: 35px auto 0;
+    
+    font-size: 18px;
+    font-family: 'ITC Mendoza Roman Std Book', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    color: #D4D4D4;
+    width: 40%;
+    text-align: left;
+    margin: 20px auto 0;
+}

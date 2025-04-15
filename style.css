@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'ITC Mendoza Roman Std Book';
+    src: url('Asset/Fonts/ITC\ Mendoza\ Roman\ Std\ Book.otf') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'ITC Mendoza Roman Std Italic';
+    src: url('Asset/Fonts/ITC\ Mendoza\ Roman\ Std\ Book\ Italic.otf') format('opentype');
+}
+
+body {
+    background-color: black;
+    color: black;
+}
+
+.Menu-Bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    background-color: black;
+}
+
+.Menu-Bar button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'ITC Mendoza Roman Std Book', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#dots {
+    position: relative;
+    top: -5px;
+}
+
+.Dots-Bar {
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'ITC Mendoza Roman Std Book', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: none;
+}
+
+.Dots-Bar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+hr { 
+    width: 40%;
+    margin: 1px auto;
+    border: 1px solid gray;
+}
+
+.Frontpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Frontpage a {
+    display: block;
+}
+
+.Frontpage img {
+    width: 770px;
+    height: 770px;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.album img {
+    width: 230px;
+    height: 230px;
+}
+
+.row {
+    display: flex;
+    gap: 35px;
+}
+
+.album2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+  
+.row2 {
+    display: flex;
+    gap: 40px;
+}
+  
+.album-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'ITC Mendoza Roman Std Book', sans-serif;
+    font-size: 10px;
+    font-style: bold;
+    font-style: italic;
+}
+
+.album-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.album-item ol {
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+  
+.album-item li {
+    color: #ccc;
+    margin-bottom: 10px;
+    font-family: 'ITC Mendoza Roman Std Italic', sans-serif;
+    font-size: 12px;
+    transition: text-shadow 0.3s ease;
+}
+
+.album-item li:hover {
+    color: #ffffff
+}
+  
+.album-item img {
+    width: 365px;
+    height: 365px;
+}
+
+.Recordinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.Recordinfo img {
+    width: 353.45px;
+    height: 353.45px;
+}
+
+.Recordinfo pre {
+    color: #D4D4D4;
+    font-family: 'ITC Mendoza Roman Std Book', sans-serif;
+    font-size: 14px;
+    white-space: pre-wrap;
+    margin: 0;
+    max-width: 600px;
+    text-align: center;
+}
+
+.Lyricsinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.Lyricsinfo h1{
+    color: white;
+    font-family: 'ITC Mendoza Roman Std Book', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Lyricsinfo img {
+    width: 353.45px;
+    height: 353.45px;
+}
+
+.Lyricsinfo pre {
+    color: #D4D4D4;
+    font-family: 'ITC Mendoza Roman Std Italic', sans-serif;
+    font-size: 14px;
+    white-space: pre-wrap;
+    margin: 0;
+    max-width: 600px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Info-Right {
+    margin-right: 25%;
+    color: #ffffff;
+    width: 45%;
+}
+
+.Info-Left{
+    margin-left: 20%;
+    color: #ffffff;
+    width: 45%
+}
+
+.Info-Right, .Info-Left {
+    color: #D4D4D4;
+    font-family: 'ITC Mendoza Roman Std Italic', sans-serif;
+    font-size: 14px;
+}
